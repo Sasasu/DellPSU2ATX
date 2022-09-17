@@ -1,0 +1,19 @@
+### Missing 3D models - created on 2022-09-17 20:41
+### Printed by checking_3D_models plugin
+Board file: /home/sa/W/DellPSU2ATX/DellPSU2ATX.kicad_pcb
+3D missing models written to:
+/home/sa/W/DellPSU2ATX/DellPSU2ATX_missing3Dmodels.txt
+-------
+('J8', '/usr/share/kicad/3dmodels/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl')
+('J9', '/usr/share/kicad/3dmodels/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl')
+('J10', '/usr/share/kicad/3dmodels/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl')
+('J15', '/usr/share/kicad/3dmodels/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl')
+('J11', '/usr/share/kicad/3dmodels/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl')
+('J13', '/usr/share/kicad/3dmodels/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl')
+('J7', '/usr/share/kicad/3dmodels/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl')
+('J16', '/usr/share/kicad/3dmodels/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl')
+('J12', '/usr/share/kicad/3dmodels/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl')
+('J17', '/usr/share/kicad/3dmodels/Connector_AMASS.3dshapes/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.wrl')
+-------
+NUM of 3D missing models:10
+checked extensions ['.stp', '.step', '.stpZ']

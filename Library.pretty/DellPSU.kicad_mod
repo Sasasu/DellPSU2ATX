@@ -1,0 +1,80 @@
+(footprint "DellPSU" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "REF**" (at 10.16 -9.398 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5592911e-cd12-4196-9c27-c2a4a60e3a59)
+  )
+  (fp_text value "DellPSU" (at 10.16 -7.898 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d5a051ac-a98e-42d6-8827-7dc7aecdb97a)
+  )
+  (fp_text user "${REFERENCE}" (at 10.16 -6.398 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 461e516a-f749-4ad1-aeb9-fbdce1ba25af)
+  )
+  (fp_rect (start 64.389 0) (end 46.7 1.57) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 29344888-14ff-4935-bae1-2382c0cf7715))
+  (fp_rect (start 46 0) (end -0.127 1.57) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp db099b7d-3b81-4654-aeca-4afa540ac059))
+  (pad "12V" connect rect (at 10.6265 -0.7045) (size 19.641 1.385) (layers "F.Cu" "F.Mask") (tstamp 09519339-1815-4c97-8c77-52236dccc3ca))
+  (pad "12V" connect rect (at 10.6265 2.286) (size 19.641 1.524) (layers "F.Cu" "F.Mask") (tstamp 31374873-505b-4381-853b-942df18ceacf))
+  (pad "12VSB" connect rect (at 43.815 2.286) (size 4.25 1.518) (layers "F.Cu" "F.Mask") (tstamp e341b6bb-2c2c-4adb-9b81-d6e35cc6529a))
+  (pad "GND" connect rect (at 31.089 2.286) (size 19.252 1.524) (layers "F.Cu" "F.Mask") (tstamp 5bc2bdc3-ed21-44c2-8906-4db035c9420f))
+  (pad "GND" connect rect (at 33.68975 -0.7045) (size 24.5685 1.385) (layers "F.Cu" "F.Mask") (tstamp c43c33a0-4f3b-4ccf-a632-f1e92ef8987b))
+  (pad "S1" connect rect (at 48.117 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp c40519a4-7d48-404f-aeba-1121ebbc547f))
+  (pad "S2" connect rect (at 49.387 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 1c975cba-ff88-4237-9ef3-7ca798669f9d))
+  (pad "S3" connect rect (at 50.657 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 81e2990b-3b03-4190-a1b8-559ad9dafaa9))
+  (pad "S4" connect rect (at 51.927 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 41086f54-62b0-47e8-91cd-88dfc9feb81a))
+  (pad "S5" connect rect (at 53.197 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp e8f1449c-ed30-41a8-a30f-8f76e6dc4581))
+  (pad "S6" connect rect (at 54.467 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp bfa23a72-4a17-4607-a656-f1abcfae89d6))
+  (pad "S7" connect rect (at 55.737 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 021c14f1-3556-4e52-aade-efb657de8f06))
+  (pad "S8" connect rect (at 57.007 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 8114adec-81dc-46dd-9ae8-9515e78df106))
+  (pad "S9" connect rect (at 58.277 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 6626154d-7f87-4323-ab93-b4e81ac6db75))
+  (pad "S10" connect rect (at 59.547 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp f7e8670e-bb59-44f2-a793-6962ffa3b2b8))
+  (pad "S11" connect rect (at 60.817 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp c202e5ae-7b58-471b-b5ff-9f3281698f10))
+  (pad "S12" connect rect (at 62.087 -0.762) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 44c4913d-8d0d-40c2-9f8e-b530fcb19e4d))
+  (pad "S13" connect rect (at 62.087 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 76da2e9b-d56e-4294-a75e-dd406e439b50))
+  (pad "S14" connect rect (at 60.817 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 3b3df5cf-1b68-4a88-ae52-09a1d698268c))
+  (pad "S15" connect rect (at 59.547 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 622ab0a0-1156-4232-bd81-48b1e7d88247))
+  (pad "S16" connect rect (at 58.277 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 842c2a5b-0331-456a-9772-7493904b853e))
+  (pad "S17" connect rect (at 57.007 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 041d33c5-8556-40c0-8b70-d301a155dd0b))
+  (pad "S18" connect rect (at 55.737 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 2667b9f5-9fe2-48bc-aeed-aaf4f37c2e45))
+  (pad "S19" connect rect (at 54.467 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp b18f77f2-f917-4264-bfd2-9529c3e63ba5))
+  (pad "S20" connect rect (at 53.197 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 07ae985c-35f2-4de6-a38d-c19e0c5319ba))
+  (pad "S21" connect rect (at 51.927 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp b9aac64a-e077-4c40-9448-1e8b9c28db8f))
+  (pad "S22" connect rect (at 50.657 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 28ce4204-b17e-4253-b69c-f718b7dac139))
+  (pad "S23" connect rect (at 49.387 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp e745e1c7-5e7b-4db9-92d1-56bfc6314928))
+  (pad "S24" connect rect (at 48.117 2.286) (size 0.8 1.518) (layers "F.Cu" "F.Mask") (tstamp 4b54abc1-3d78-4645-b507-26b3a6a7b3df))
+  (group "" (id 73c2005c-9cf7-4830-b24f-0b2d3245dd73)
+    (members
+      021c14f1-3556-4e52-aade-efb657de8f06
+      1c975cba-ff88-4237-9ef3-7ca798669f9d
+      41086f54-62b0-47e8-91cd-88dfc9feb81a
+      44c4913d-8d0d-40c2-9f8e-b530fcb19e4d
+      6626154d-7f87-4323-ab93-b4e81ac6db75
+      8114adec-81dc-46dd-9ae8-9515e78df106
+      81e2990b-3b03-4190-a1b8-559ad9dafaa9
+      bfa23a72-4a17-4607-a656-f1abcfae89d6
+      c202e5ae-7b58-471b-b5ff-9f3281698f10
+      c40519a4-7d48-404f-aeba-1121ebbc547f
+      e8f1449c-ed30-41a8-a30f-8f76e6dc4581
+      f7e8670e-bb59-44f2-a793-6962ffa3b2b8
+    )
+  )
+  (group "" (id d3b334d0-5eb5-4443-a9a6-1030c50af608)
+    (members
+      041d33c5-8556-40c0-8b70-d301a155dd0b
+      07ae985c-35f2-4de6-a38d-c19e0c5319ba
+      2667b9f5-9fe2-48bc-aeed-aaf4f37c2e45
+      28ce4204-b17e-4253-b69c-f718b7dac139
+      3b3df5cf-1b68-4a88-ae52-09a1d698268c
+      4b54abc1-3d78-4645-b507-26b3a6a7b3df
+      622ab0a0-1156-4232-bd81-48b1e7d88247
+      76da2e9b-d56e-4294-a75e-dd406e439b50
+      842c2a5b-0331-456a-9772-7493904b853e
+      b18f77f2-f917-4264-bfd2-9529c3e63ba5
+      b9aac64a-e077-4c40-9448-1e8b9c28db8f
+      e745e1c7-5e7b-4db9-92d1-56bfc6314928
+    )
+  )
+)
